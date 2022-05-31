@@ -1,0 +1,15 @@
+{
+  "name": "tailwindcli",
+  "version": "1.0.0",
+  "description": "- See [Installation: Tailwind CLI](https://tailwindcss.com/docs/installation)",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./tailwind.css -o ./html/css/style.css --watch",
+    "build": "tailwindcss -i ./tailwind.css -o ./html/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
