@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "watch": "tailwindcss -i ./tailwind.css -o ./html/css/style.css --watch",
-    "build": "tailwindcss -i ./tailwind.css -o ./html/css/style.css"
+    "build": "tailwindcss -i ./tailwind.css -o ./html/css/style.css",
+    "start": "npm run build && node index.js"
   },
   "author": "",
   "license": "ISC",
