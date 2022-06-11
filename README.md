@@ -8,6 +8,8 @@
 
 ## Usage
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/awebfactory/awf-quickie-tailwind-cli/tree/daisyui?file=README.md&start)
+
 ### Install dependencies in package.json
 
 ```bash
